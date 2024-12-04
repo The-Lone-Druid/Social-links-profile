@@ -1,6 +1,6 @@
 # Frontend Mentor - Social links profile solution
 
-This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -14,7 +14,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -42,59 +41,37 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Tailwind CSS](https://tailwindcss.com/) - Tailwind CSS library
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+During this project, I learned how to effectively use Tailwind CSS to style a web page. I gained a deeper understanding of:
 
-To see how you can add code snippets, see below:
+- **Semantic HTML5 markup**: Ensuring that the HTML structure is meaningful and accessible.
+- **CSS custom properties**: Utilizing CSS variables to maintain consistent styling across the project.
+- **Flexbox and CSS Grid**: Creating responsive layouts that adapt to different screen sizes.
+- **Mobile-first workflow**: Designing the mobile version of the site first and then enhancing it for larger screens.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Additionally, I improved my skills in debugging and optimizing CSS for better performance and cross-browser compatibility.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future projects, I plan to continue improving my skills in the following areas:
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- **Advanced CSS techniques**: Exploring more complex CSS features such as animations, transitions, and custom properties.
+- **JavaScript frameworks**: Learning and implementing popular frameworks like React, Vue, or Angular to build more dynamic and interactive web applications.
+- **Accessibility**: Ensuring that my web projects are accessible to all users by following best practices and guidelines.
+- **Performance optimization**: Focusing on techniques to improve the performance and loading times of web pages.
+- **Backend development**: Gaining a better understanding of backend technologies and how to integrate them with front-end applications.
+
+By focusing on these areas, I aim to create more robust, efficient, and user-friendly web applications.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Frontend Mentor](https://www.frontendmentor.io) - This helped me fine-grain my skills by providing real-world challenges to work on.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Website - [Zahid Shaikh](https://www.zahidshaikh.space)
+- Frontend Mentor - [@The-Lone-Druid](https://www.frontendmentor.io/profile/The-Lone-Druid)
+- Github - [The-Lone-Druid](https://www.github.com/The-Lone-Druid)
