@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,400..700;1,14..32,400..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontSize: {
+              paragraph: "0.875rem",
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+            },
+            colors: {
+              green: "hsl(75, 94%, 57%)",
+              white: "hsl(0, 0%, 100%)",
+              gray: {
+                700: "hsl(0, 0%, 20%)",
+                800: "hsl(0, 0%, 12%)",
+                900: "hsl(0, 0%, 8%)",
+              },
+            },
+          },
+        },
+      };
+    </script>
+
+    <title>Frontend Mentor | Social links profile</title>
+  </head>
+  <body class="bg-gray-900">
+    <main class="h-screen w-screen flex items-center justify-center">
+      <div class="w-10rem px-6 py-7 bg-gray-800 rounded-xl w-[300px] text-center">
+        <div class="flex justify-center">
+          <img
+            src="./assets/images/avatar-jessica.jpeg"
+            height="70"
+            width="70"
+            class="rounded-full"
+            alt="Profile image"
+          />
+        </div>
+        <h1 class="text-white text-xl font-semibold mt-5">Jessica Randall</h1>
+        <p class="text-xs text-green font-semibold mt-2">
+          London, United Kingdom
+        </p>
+        <p class="text-xs text-white mt-5">
+          "Front-end developer and avid reader."
+        </p>
+        <div class="mt-4 flex flex-col gap-3">
+          <button class="d-block p-3 text-white text-xs bg-gray-700 rounded-md font-semibold hover:text-gray-900 hover:bg-green transition-all">
+            GitHub
+          </button>
+          <button class="d-block p-3 text-white text-xs bg-gray-700 rounded-md font-semibold hover:text-gray-900 hover:bg-green transition-all">
+            Frontend Mentor
+          </button>
+          <button class="d-block p-3 text-white text-xs bg-gray-700 rounded-md font-semibold hover:text-gray-900 hover:bg-green transition-all">
+            LinkedIn
+          </button>
+          <button class="d-block p-3 text-white text-xs bg-gray-700 rounded-md font-semibold hover:text-gray-900 hover:bg-green transition-all">
+            Twitter
+          </button>
+          <button class="d-block p-3 text-white text-xs bg-gray-700 rounded-md font-semibold hover:text-gray-900 hover:bg-green transition-all">
+            Instagram
+          </button>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
